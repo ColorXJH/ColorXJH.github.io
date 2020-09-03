@@ -1,7 +1,7 @@
 var Canvas = document.getElementById("myCanvas");
 var can = Canvas.getContext("2d");
-Canvas.width = document.documentElement.clientWidth-100;
-Canvas.height = document.documentElement.clientHeight;
+Canvas.width = document.documentElement.clientWidth;
+Canvas.height = document.documentElement.clientHeight-100;
 var dianArr = [];
 
 function randNum(min, max) {

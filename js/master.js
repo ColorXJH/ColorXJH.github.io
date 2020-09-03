@@ -1,6 +1,6 @@
 var Canvas = document.getElementById("myCanvas");
 var can = Canvas.getContext("2d");
-Canvas.width = document.documentElement.clientWidth;
+Canvas.width = document.documentElement.clientWidth-100;
 Canvas.height = document.documentElement.clientHeight;
 var dianArr = [];
 
